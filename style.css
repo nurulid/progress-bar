@@ -15,37 +15,32 @@
     width: 50%;
     background: rgb(255, 255, 43);
     height: 30px;
-    animation: scale-dua 1s ease-in 1;
+    animation: progress 1s ease-in 1;
 }
 
 .tiga-puluh{
     width: 30%;
     background: rgba(236, 48, 35, 0.925);
     height: 30px;
-    animation: scale-dua 1s ease-in 1;
+    animation: progress 1s ease-in;
 }
 
 .delapan-puluh{
     width: 80%;
     background: rgb(39, 214, 54);
     height: 30px;
-    animation: scale-satu 1s ease-in 1;
+    animation: progress 1s ease-in;
 }
 
 .sembilan-puluh{
     width: 90%;
     background: rgb(24, 122, 202);
     height: 30px;
-    animation: scale-satu 1s ease-in 1;
+    animation: progress 1s ease-in;
 }
 
 
-@keyframes scale-dua{
+@keyframes progress{
     0%{transform: translateX(0)}
-    20%{transform: scaleX(2.5)}
-}
-
-@keyframes scale-satu{
-    0%{transform: translateX(0)}
-    20%{transform: scaleX(1.5)}
+    20%{width:100%}
 }
