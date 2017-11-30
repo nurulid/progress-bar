@@ -15,4 +15,10 @@
     width: 50%;
     background: yellow;
     height: 30px;
+    animation: leftToRight 1s ease-in 1;
+}
+
+@keyframes leftToRight{
+    0%{transform: translateX(0)}
+    20%{transform: scaleX(2.5)}
 }
