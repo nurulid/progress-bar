@@ -1,0 +1,18 @@
+.full{
+    width: 100%;
+    background: #ddd;
+    height: 30px;
+}
+
+.progress p{
+    padding-top: 7px;
+    padding-right: 10px;
+    text-align: right;
+    color: rgb(160, 160, 160);
+}
+
+.lima-puluh{
+    width: 50%;
+    background: yellow;
+    height: 30px;
+}
